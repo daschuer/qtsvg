@@ -1,5 +1,5 @@
-qt6-svg (6.2.0-1) UNRELEASED; urgency=medium
+qt6-svg (6.2.0-1) experimental; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #998370)
 
  -- Patrick Franz <deltaone@debian.org>  Wed, 03 Nov 2021 03:27:06 +0100
