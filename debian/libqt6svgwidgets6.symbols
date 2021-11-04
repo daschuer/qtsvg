@@ -1,0 +1,60 @@
+# SymbolsHelper-Confirmed: 6.2.0 amd64
+libQt6SvgWidgets.so.6 libqt6svgwidgets6 #MINVER#
+| libqt6svgwidgets6 #MINVER#, qt6-svg-abi (= 6.2.0)
+* Build-Depends-Package: libqt6svg6-dev
+ _ZN10QSvgWidget10paintEventEP11QPaintEvent@Base 6.2.0
+ _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
+ _ZN10QSvgWidget11qt_metacastEPKc@Base 6.2.0
+ _ZN10QSvgWidget16staticMetaObjectE@Base 6.2.0
+ _ZN10QSvgWidget4loadERK10QByteArray@Base 6.2.0
+ _ZN10QSvgWidget4loadERK7QString@Base 6.2.0
+ _ZN10QSvgWidgetC1EP7QWidget@Base 6.2.0
+ _ZN10QSvgWidgetC1ERK7QStringP7QWidget@Base 6.2.0
+ _ZN10QSvgWidgetC2EP7QWidget@Base 6.2.0
+ _ZN10QSvgWidgetC2ERK7QStringP7QWidget@Base 6.2.0
+ _ZN10QSvgWidgetD0Ev@Base 6.2.0
+ _ZN10QSvgWidgetD1Ev@Base 6.2.0
+ _ZN10QSvgWidgetD2Ev@Base 6.2.0
+ _ZN16QGraphicsSvgItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
+ _ZN16QGraphicsSvgItem11qt_metacastEPKc@Base 6.2.0
+ _ZN16QGraphicsSvgItem12setElementIdERK7QString@Base 6.2.0
+ _ZN16QGraphicsSvgItem16staticMetaObjectE@Base 6.2.0
+ _ZN16QGraphicsSvgItem17setCachingEnabledEb@Base 6.2.0
+ _ZN16QGraphicsSvgItem17setSharedRendererEP12QSvgRenderer@Base 6.2.0
+ _ZN16QGraphicsSvgItem19setMaximumCacheSizeERK5QSize@Base 6.2.0
+ _ZN16QGraphicsSvgItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 6.2.0
+ _ZN16QGraphicsSvgItemC1EP13QGraphicsItem@Base 6.2.0
+ _ZN16QGraphicsSvgItemC1ERK7QStringP13QGraphicsItem@Base 6.2.0
+ _ZN16QGraphicsSvgItemC2EP13QGraphicsItem@Base 6.2.0
+ _ZN16QGraphicsSvgItemC2ERK7QStringP13QGraphicsItem@Base 6.2.0
+ _ZNK10QSvgWidget10metaObjectEv@Base 6.2.0
+ _ZNK10QSvgWidget8rendererEv@Base 6.2.0
+ _ZNK10QSvgWidget8sizeHintEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem10metaObjectEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem12boundingRectEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem16isCachingEnabledEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem16maximumCacheSizeEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem4typeEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem8rendererEv@Base 6.2.0
+ _ZNK16QGraphicsSvgItem9elementIdEv@Base 6.2.0
+ _ZTI10QSvgWidget@Base 6.2.0
+ _ZTI16QGraphicsSvgItem@Base 6.2.0
+ _ZTS10QSvgWidget@Base 6.2.0
+ _ZTS16QGraphicsSvgItem@Base 6.2.0
+ _ZTV10QSvgWidget@Base 6.2.0
+ _ZTV16QGraphicsSvgItem@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QSizeE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QSizeE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QSizeE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Base 6.2.0
+ (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Base 6.2.0
+ (c++)"non-virtual thunk to QGraphicsSvgItem::boundingRect() const@Base" 6.2.0
+ (c++)"non-virtual thunk to QGraphicsSvgItem::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 6.2.0
+ (c++)"non-virtual thunk to QGraphicsSvgItem::type() const@Base" 6.2.0
+ (c++)"non-virtual thunk to QSvgWidget::~QSvgWidget()@Base" 6.2.0

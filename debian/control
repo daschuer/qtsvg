@@ -10,10 +10,12 @@ Build-Depends: cmake (>= 3.18~),
                libqt6opengl6-dev (>= 6.2.0+dfsg~),
                ninja-build,
                pkg-config,
+               pkg-kde-tools,
                qt6-base-dev (>= 6.2.0+dfsg~),
                qt6-base-private-dev (>= 6.2.0+dfsg~),
                zlib1g-dev,
                libvulkan-dev [linux-any],
+               libgl-dev,
 Standards-Version: 4.6.0
 Homepage: https://www.qt.io/developers/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-svg
@@ -22,6 +24,7 @@ Rules-Requires-Root: no
 
 Package: libqt6svg6
 Architecture: any
+Provides: qt6-svg-abi (= 6.2.0)
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Qt 6 SVG module
@@ -51,7 +54,9 @@ Package: libqt6svg6-dev
 Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libqt6svg6 (= ${binary:Version}),
+         libqt6svgwidgets6 (= ${binary:Version}),
+         ${misc:Depends},
 Description: Qt 6 SVG module development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
