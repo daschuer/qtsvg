@@ -35,10 +35,11 @@ Copyright: 2002 USC/Information Sciences Institute
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2, and HPND-sell-variant
 
-Files: tests/auto/*
+Files: conanfile.py
+       tests/auto/*
        tests/benchmarks/*
        tests/libfuzzer/*
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 License: GFDL-NIV-1.3
