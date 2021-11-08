@@ -1,6 +1,5 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6SvgWidgets.so.6 libqt6svgwidgets6 #MINVER#
-| libqt6svgwidgets6 #MINVER#, qt6-svg-abi (= 6.2.0)
 * Build-Depends-Package: libqt6svg6-dev
  _ZN10QSvgWidget10paintEventEP11QPaintEvent@Base 6.2.0
  _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0

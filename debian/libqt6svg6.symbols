@@ -1,6 +1,5 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6Svg.so.6 libqt6svg6 #MINVER#
-| libqt6svg6 #MINVER#, qt6-svg-abi (= 6.2.0)
 * Build-Depends-Package: libqt6svg6-dev
  _ZN10QSvgSwitch4drawEP8QPainterR15QSvgExtraStates@Base 6.2.0
  _ZN10QSvgSwitch4initEv@Base 6.2.0

@@ -1,4 +1,4 @@
-qt6-svg (6.2.0-1) experimental; urgency=medium
+qt6-svg (6.2.1-1) experimental; urgency=medium
 
   * Initial release (Closes: #998370)
 
