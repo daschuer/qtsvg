@@ -2,19 +2,18 @@ Source: qt6-svg
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Patrick Franz <deltaone@debian.org>,
-           Lu YaNing <dluyaning@gmail.com>
+Uploaders: Patrick Franz <deltaone@debian.org>, Lu YaNing <dluyaning@gmail.com>
 Build-Depends: cmake (>= 3.18~),
                debhelper-compat (= 13),
+               libgl-dev,
                libqt6opengl6-dev (>= 6.2.1+dfsg~),
+               libvulkan-dev [linux-any],
                ninja-build,
                pkg-config,
                pkg-kde-tools,
                qt6-base-dev (>= 6.2.1+dfsg~),
                qt6-base-private-dev (>= 6.2.1+dfsg~),
                zlib1g-dev,
-               libvulkan-dev [linux-any],
-               libgl-dev,
 Standards-Version: 4.6.0
 Homepage: https://www.qt.io/developers/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-svg
@@ -25,7 +24,7 @@ Package: libqt6svg6
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 SVG module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -38,7 +37,7 @@ Description: Qt 6 SVG module
 Package: libqt6svgwidgets6
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 SVG widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

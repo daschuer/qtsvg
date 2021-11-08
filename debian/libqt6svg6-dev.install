@@ -17,12 +17,12 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qsvgwidget.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qtsvgwidgetsglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qtsvgwidgetsversion.h
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/*
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svg_none_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svgwidgets_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.so
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svg_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svgwidgets_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svg.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svgwidgets.pri
 usr/share/qt6/modules/Svg.json
