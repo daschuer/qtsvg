@@ -25,7 +25,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 6 SVG module
+Description: Qt 6 SVG library
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -33,12 +33,14 @@ Description: Qt 6 SVG module
  .
  Scalable Vector Graphics (SVG) is a language for describing two-dimensional
  graphics and graphical applications in XML.
+ .
+ This package contains Qt 6 SVG library.
 
 Package: libqt6svgwidgets6
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 6 SVG widgets module
+Description: Qt 6 SVG Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -47,7 +49,7 @@ Description: Qt 6 SVG widgets module
  Scalable Vector Graphics (SVG) is a language for describing two-dimensional
  graphics and graphical applications in XML
  .
- The SVG widgets module provides the widget for Qt 6 SVG.
+ This package contains Qt 6 SVG Widgets library.
 
 Package: libqt6svg6-dev
 Architecture: any
@@ -56,7 +58,7 @@ Section: libdevel
 Depends: libqt6svg6 (= ${binary:Version}),
          libqt6svgwidgets6 (= ${binary:Version}),
          ${misc:Depends},
-Description: Qt 6 SVG module development files
+Description: Qt 6 SVG - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
