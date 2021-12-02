@@ -9,7 +9,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
+		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 	
 execute_after_dh_auto_install:
 	# Reproducible builds: remove build paths from .prl files

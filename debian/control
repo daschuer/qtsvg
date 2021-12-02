@@ -6,13 +6,13 @@ Uploaders: Patrick Franz <deltaone@debian.org>, Lu YaNing <dluyaning@gmail.com>
 Build-Depends: cmake (>= 3.18~),
                debhelper-compat (= 13),
                libgl-dev,
-               libqt6opengl6-dev (>= 6.2.1+dfsg~),
+               libqt6opengl6-dev (>= 6.2.2+dfsg~),
                libvulkan-dev [linux-any],
                ninja-build,
                pkg-config,
                pkg-kde-tools,
-               qt6-base-dev (>= 6.2.1+dfsg~),
-               qt6-base-private-dev (>= 6.2.1+dfsg~),
+               qt6-base-dev (>= 6.2.2+dfsg~),
+               qt6-base-private-dev (>= 6.2.2+dfsg~),
                zlib1g-dev,
 Standards-Version: 4.6.0
 Homepage: https://www.qt.io/developers/
