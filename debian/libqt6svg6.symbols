@@ -287,7 +287,6 @@ libQt6Svg.so.6 libqt6svg6 #MINVER#
  _ZNK16QSvgTinyDocument13elementExistsERK7QString@Base 6.2.0
  _ZNK16QSvgTinyDocument15boundsOnElementERK7QString@Base 6.2.0
  _ZNK16QSvgTinyDocument19transformForElementERK7QString@Base 6.2.0
- _ZNK16QSvgTinyDocument4sizeEv@Base 6.2.0
  _ZNK16QSvgTinyDocument4typeEv@Base 6.2.0
  _ZNK16QSvgTinyDocument7svgFontERK7QString@Base 6.2.0
  _ZNK16QSvgTinyDocument8animatedEv@Base 6.2.0
