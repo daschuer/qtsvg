@@ -1,0 +1,25 @@
+qt6-svg (6.2.2-1) experimental; urgency=medium
+
+  [ Lu YaNing ]
+  * Update descriptions.
+  * List cmake files in detail.
+
+  [ Patrick Franz ]
+  * New upstream release (6.2.2).
+  * Bump Qt B-Ds to 6.2.2.
+  * Update installed files.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 02 Dec 2021 09:29:20 +0100
+
+qt6-svg (6.2.1-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Source-only upload to experimental.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 21 Nov 2021 02:36:38 +0100
+
+qt6-svg (6.2.1-1) experimental; urgency=medium
+
+  * Initial release (Closes: #998370)
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 03 Nov 2021 03:27:06 +0100

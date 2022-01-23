@@ -1,0 +1,71 @@
+Source: qt6-svg
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Patrick Franz <deltaone@debian.org>, Lu YaNing <dluyaning@gmail.com>
+Build-Depends: cmake (>= 3.18~),
+               debhelper-compat (= 13),
+               libgl-dev,
+               libqt6opengl6-dev (>= 6.2.2+dfsg~),
+               libvulkan-dev [linux-any],
+               ninja-build,
+               pkg-config,
+               pkg-kde-tools,
+               qt6-base-dev (>= 6.2.2+dfsg~),
+               qt6-base-private-dev (>= 6.2.2+dfsg~),
+               zlib1g-dev,
+Standards-Version: 4.6.0
+Homepage: https://www.qt.io/developers/
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-svg
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-svg.git
+Rules-Requires-Root: no
+
+Package: libqt6svg6
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 SVG library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+ .
+ This package contains Qt 6 SVG library.
+
+Package: libqt6svgwidgets6
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 SVG Widgets library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML
+ .
+ This package contains Qt 6 SVG Widgets library.
+
+Package: libqt6svg6-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libqt6svg6 (= ${binary:Version}),
+         libqt6svgwidgets6 (= ${binary:Version}),
+         ${misc:Depends},
+Description: Qt 6 SVG - development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+ .
+ This package contains the header development files used for building Qt 6
+ applications using QtSvg library.
